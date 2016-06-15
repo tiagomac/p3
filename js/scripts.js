@@ -59,4 +59,12 @@
         //event.preventDefault();
     }, 600);
 
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang.startsWith('es')) {
+        $('#argentina').append(
+            '<blockquote>a <u>Argentina</u>, utilice el código &quot; ubergratuito.com&quot; en su aplicación Uber en el primer uso</blockquote>'
+        )
+
+    }
+
 })(jQuery);
