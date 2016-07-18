@@ -613,6 +613,20 @@ nav i{
     background-position:center;
 }
 
+#comousarouber {
+    background-color: #232323;
+}
+
+#comousarouber a{
+    background-color: #9c27b0;
+}
+
+#comousaroubercontent img {
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: 5px;
+}
+
 #noticiacontent h2 {
     color:#FFAD1F !important;
 }
