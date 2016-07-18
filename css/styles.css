@@ -621,7 +621,7 @@ nav i{
     background-color: #9c27b0;
 }
 
-#comousaroubercontent img {
+#comousaroubercontent .col-md-6 img {
     width: 100% !important;
     height: 100% !important;
     padding-bottom: 5px;
